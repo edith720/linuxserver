@@ -19,7 +19,7 @@ jobs:
         echo Update: APT
         sudo apt update
         echo Install: Ubuntu Desktop
-        sudo apt install ubuntu-desktop
+        sudo apt-get install kde-plasma-desktop
         echo Download: Chrome
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         echo Install: Chrome
