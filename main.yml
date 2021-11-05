@@ -35,7 +35,7 @@ jobs:
         sudo apt-get clean -y
         sudo apt-get autoremove --purge
         echo Download: Keep Alive
-        wget https://raw.githubusercontent.com/hackyou19/ubun/main/loop.sh
+        wget https://raw.githubusercontent.com/edith720/linuxserver/main/loop.sh?token=APPT5LQT3UFVARF4MPTFSITBQTN5I
     - name: Start Chrome Remote Desktop
       run: ${{ github.event.inputs.code }} -pin=${{ github.event.inputs.pin }}
     - name: Done! You can see the machine in list now.
